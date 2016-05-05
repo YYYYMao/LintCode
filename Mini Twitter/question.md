@@ -10,14 +10,14 @@ follow(from_user_id, to_user_id). from_user_id followed to_user_id.
 unfollow(from_user_id, to_user_id). from_user_id unfollowed to to_user_id.
 
 postTweet(1, "LintCode is Good!!!")
->> 1
+1
 getNewsFeed(1)
->> [1]
+[1]
 getTimeline(1)
->> [1]
+[1]
 follow(2, 1)
 getNewsFeed(2)
->> [1]
+[1]
 unfollow(2, 1)
 getNewsFeed(2)
->> []
+[]
